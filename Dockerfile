@@ -20,5 +20,4 @@ ENV TERM="xterm" \
     DB_USER=""
 
 EXPOSE 9091
-CMD [ "npm", "start" ]
-~                           
+CMD [ "npm", "start" ]                        
