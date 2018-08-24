@@ -1,7 +1,8 @@
 FROM node:alpine
+MAINTAINER FS. <fsm.systems>
 # Create app directory
 WORKDIR /usr/src/app
-MAINTAINER FS. <fsm.systems>
+
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
